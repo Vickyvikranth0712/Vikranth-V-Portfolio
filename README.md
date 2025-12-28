@@ -1,6 +1,6 @@
 # Vikranth V - Portfolio Website
 
-A professional, modern portfolio website showcasing IoT, Embedded Systems, and Software Development projects.
+A professional, modern portfolio website showcasing IoT, Embedded Systems, and Hardware-Software Integration projects.
 
 ## 🎨 Color Scheme
 
@@ -17,19 +17,18 @@ A professional, modern portfolio website showcasing IoT, Embedded Systems, and S
 ## ✨ Features
 
 ### 1. **Hero Section**
-- Large, animated name display (7rem font size)
+- Large, animated name display
 - Word-by-word name animation
-- Rotating job titles with typing effect
-- Blinking cursor animation
+- Job title: "IoT & Embedded Systems Engineer"
 - Minimal particle background
 - Smooth scroll indicator
 
 ### 2. **About Section**
 - Centered content layout
-- Professional introduction
+- Professional introduction as a Pre-final year ECE student
 - Three main expertise areas:
   - IoT Development
-  - Machine Learning
+  - Hardware-Software Integration
   - Embedded Systems
 
 ### 3. **Skills Section**
@@ -43,34 +42,44 @@ A professional, modern portfolio website showcasing IoT, Embedded Systems, and S
 - Animated hover effects with scaling and glow
 
 ### 4. **Projects Section**
-- **Two tabs**: Software & Hardware
-- **Software Projects**: 2 placeholders with "View Code" button
-- **Hardware Projects**: 3 placeholders with video and tech stack (no buttons)
-- Zigzag layout (alternating left/right)
+- **5 Featured Projects** with image carousels:
+  1. **SEMOS** - Smart Energy Management and Optimization System (IoT, Firebase)
+  2. **Offline Malpractice Detection** - Real-time exam monitoring using computer vision (Python, OpenCV, MediaPipe)
+  3. **Water Quality Monitoring** - IoT-based water quality measurement system (Embedded Systems, Firebase, PCB Design)
+  4. **Smart Parking Lot Management System** - Arduino-based parking space allocation (IoT, Arduino Uno)
+  5. **Automatic Garbage Bot** - Low-cost autonomous garbage collection robot (Arduino, Robotics)
+- Image carousels with navigation arrows and indicator dots
 - Scroll-triggered fade-in animations
 
 ### 5. **Experience Section**
 - Vertical timeline (top = most recent, bottom = start)
-- 4 experience placeholders
+- **3 Experience Entries**:
+  1. **IoT Intern** at SortyX Ventures Private Limited (Jun 2025 - Jul 2025)
+  2. **Embedded Systems Intern** at NSIC Technical Services Centre (Dec 2024)
+  3. **Hardware Support Technician** at Izeon Innovative Private Limited (Jun 2023 - Jul 2023)
 - Animated dots and connecting line
-- Responsive layout
-- Scroll animations for each entry
+- Responsive layout with scroll animations
 
 ### 6. **Certificates Section**
-- Carousel with 5 certificate slots
+- Carousel with **4 certificates**:
+  1. Course Completion Certificate - Udemy (Oct 2024)
+  2. Project Presentation Certificate - SRMIST Department of Mathematics (Feb 2025)
+  3. Paper Presentation Certificate - SRMIST Department of ECE (Sep 2025)
+  4. Hackathon Participation Certificate - VIT Chennai & Zuntra Digital (Aug 2025)
 - Previous/Next navigation buttons
 - Auto-slide functionality
 - Indicator dots
 
 ### 7. **Contact/Footer**
 - Social media links (Email, LinkedIn, GitHub, Twitter, Instagram)
+- Email: vickyvikranth0712@gmail.com
 - Hover tooltips
 - Professional layout
 
 ## 🚀 Additional Features
 
 - ✅ **Dark/Light Mode Toggle** - Persistent theme switching
-- ✅ **Resume Download** - Button in navbar
+- ✅ **Resume View** - Opens resume in new tab (users can download if they wish)
 - ✅ **Responsive Design** - Works on all devices
 - ✅ **Particle Background** - Animated particles with connections
 - ✅ **Smooth Scrolling** - Enhanced navigation
@@ -80,58 +89,26 @@ A professional, modern portfolio website showcasing IoT, Embedded Systems, and S
 - ✅ **Scroll-to-Top Button**
 - ✅ **Loading Animation**
 - ✅ **Scroll-Triggered Animations** - Fade-in effects throughout
-
-## 📝 How to Customize
-
-### Upload Your Resume
-Place your resume as `resume.pdf` in the root folder.
-
-### Update Projects
-1. Navigate to the Projects section in `index.html`
-2. Click on the Software or Hardware tab section
-3. Replace placeholder content with your project details
-4. For videos: Replace the video-placeholder div with:
-```html
-<video controls>
-    <source src="your-video.mp4" type="video/mp4">
-</video>
-```
-
-### Update Experience
-1. Find the Experience section in `index.html`
-2. Replace placeholders from top (most recent) to bottom (start)
-3. Update:
-   - Date range
-   - Position title
-   - Company name
-   - Description
-   - Skills learned
-
-### Update Certificates
-1. Find the Certificates section in `index.html`
-2. Replace the `cert-placeholder` div with:
-```html
-<img src="certificate-image.jpg" alt="Certificate">
-```
-3. Update certificate title, issuer, date, and credential link
-
-### Update Social Media Links
-In the footer section of `index.html`, update the `href` attributes:
-- Email: `mailto:your.email@example.com`
-- LinkedIn: `https://linkedin.com/in/yourprofile`
-- GitHub: `https://github.com/yourprofile`
-- Twitter: `https://twitter.com/yourprofile`
-- Instagram: `https://instagram.com/yourprofile`
+- ✅ **Dynamic Favicon** - Theme-aware favicon
 
 ## 🎯 File Structure
 
 ```
-Git Port/
+Vicky-Updated/
 ├── index.html          # Main HTML file
 ├── styles.css          # All styling (Dark/Light themes)
 ├── script.js           # All JavaScript functionality
-├── resume.pdf          # Your resume (to be added)
-└── README.md          # This file
+├── resume.pdf          # Resume file (opens in new tab)
+├── README.md           # This file
+└── assets/
+    ├── images/
+    │   ├── certificates/   # Certificate images
+    │   ├── Semos*.jpg/png  # SEMOS project images
+    │   ├── Malpractice*.jpeg # Malpractice detection images
+    │   ├── Water*.jpg      # Water quality project images
+    │   ├── Parking*.jpg    # Parking system images
+    │   └── Rover*.jpg      # Garbage bot images
+    └── videos/
 ```
 
 ## 🌐 How to Use
@@ -163,7 +140,7 @@ All animations are in `script.js`. You can modify:
 - Typing speed
 - Particle count and behavior
 - Scroll animation thresholds
-- Carousel auto-slide timing
+- Carousel auto-slide timing (currently 4 seconds)
 
 ### Modify Layout
 All layouts use CSS Grid and Flexbox for easy customization in `styles.css`.
@@ -176,14 +153,14 @@ All layouts use CSS Grid and Flexbox for easy customization in `styles.css`.
 - ✅ Edge (Latest)
 - ✅ Mobile Browsers
 
-## 📞 Support
+## 📞 Contact
 
-For questions or issues:
-1. Check this README
-2. Review the inline comments in the code
-3. Test in different browsers
+- **Email**: vickyvikranth0712@gmail.com
+- **LinkedIn**: [Vikranth V](https://www.linkedin.com/in/vikranth7935532b0/)
+- **GitHub**: [Vickyvikranth0712](https://github.com/Vickyvikranth0712)
+- **Twitter**: [@Vikranth0712](https://x.com/Vikranth0712)
 
 ---
 
 **Made with ❤️ by Vikranth V**  
-*Electronics & Communication Engineering Student | IoT Developer | Embedded Systems Enthusiast*
+*Electronics & Communication Engineering Student | IoT Developer | Embedded Systems Engineer*
