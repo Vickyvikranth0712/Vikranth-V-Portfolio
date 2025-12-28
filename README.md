@@ -34,11 +34,12 @@ A professional, modern portfolio website showcasing IoT, Embedded Systems, and H
 ### 3. **Skills Section**
 - Logo-based skill display with hover effects
 - Organized by categories:
-  - Programming Languages (Python, C)
-  - Databases (MySQL)
-  - Libraries (OpenCV, MediaPipe)
-  - Tools & Platforms (Git, Firebase, VS Code)
-  - Technologies (ML, IoT, Web Dev)
+  - Programming Languages (C, Python)
+  - Data Handling & Storage (Firebase, MySQL)
+  - Libraries & Exposure (OpenCV, MediaPipe)
+  - Simulation & Prototyping Tools (Proteus Design Suite, Wokwi, Tinkercad)
+  - Tools & Platforms (Git, VS Code)
+  - Core Technologies (IoT Systems, Embedded Systems, Firmware Development)
 - Animated hover effects with scaling and glow
 
 ### 4. **Projects Section**
